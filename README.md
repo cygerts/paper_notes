@@ -2,7 +2,6 @@ List of interesting papers, mostly in ML and CV area.
 
 ### Intriguing properties of NN:
 #### 2020:
-- Can You Trust Your Model’s Uncertainty? Evaluating Predictive Uncertainty Under Dataset Shift, Ovadia et. al, NeurIPS 2019, [[arXiv ](https://arxiv.org/pdf/1906.02530.pdf)]
 - Exploring Randomly Wired Neural Networks for Image Recognition, Xie et. al, [[arXiv](https://arxiv.org/pdf/1904.01569.pdf)]
 
 
@@ -30,6 +29,7 @@ List of interesting papers, mostly in ML and CV area.
 #### 2019:
 - Learning by Cheating, Chen et. al, CoRL 2019, [[arXiv](https://arxiv.org/pdf/1912.12294.pdf)]
 - Objects as Points, Zhou et. al, [[arXiv](https://arxiv.org/pdf/1904.07850.pdf)] 
+- Can You Trust Your Model’s Uncertainty? Evaluating Predictive Uncertainty Under Dataset Shift, Ovadia et. al, NeurIPS 2019, [[arXiv ](https://arxiv.org/pdf/1906.02530.pdf)]
 
 #### 2018:
 - Deep Reinforcement Learning that Matters, Henderson et. al, AAAI 2018, [[arXiv](https://arxiv.org/pdf/1709.06560.pdf)]. On reproduction of baselines in RL, they show that random seeds matters can greatly alter the results and many more, nice read.
@@ -47,7 +47,7 @@ List of interesting papers, mostly in ML and CV area.
 
 - Winner's Curse? On Pace, Progress, and Empirical Rigor, D. Sculley et. al, 2018 [[openReview](Winner's Curse? On Pace, Progress, and Empirical Rigor )]
 - Relational inductive biases, deep learning, and graph networks, Battaglia et. al, 2018, [[arXiv](https://arxiv.org/pdf/1806.01261.pdf)]
-The Next Decade in AI: Four Steps Towards Robust Artificial Intelligence, Marcus 2020, [[arXiv](https://arxiv.org/pdf/2002.06177.pdf)]
+- The Next Decade in AI: Four Steps Towards Robust Artificial Intelligence, Marcus 2020, [[arXiv](https://arxiv.org/pdf/2002.06177.pdf)]
 - Building machines that learn and think like people, Lake et. al, 2016, [[arXiv](https://arxiv.org/pdf/1604.00289.pdf)]
 
 
