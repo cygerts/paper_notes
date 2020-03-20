@@ -1,12 +1,13 @@
-List of interesting papers, mostly in ML and CV area. Rather then collecting all state-of-the art papers/benchmarks here I try to present new / orthogonal / surprising ideas.
+List of interesting papers, mostly in ML and CV area. 
+Rather then collecting all state-of-the art papers/benchmarks here I try to look for new / orthogonal / surprising ideas.
 
 ### Intriguing properties of NN:
 
 #### 2019:
-- The lottery ticket hypothesis: finding sparse, trainable neural networks, Frankle & Carbin, ICLR 2019, [[arXiv](https://arxiv.org/pdf/1803.03635.pdf)][[code](https://github.com/google-research/lottery-ticket-hypothesis)]
+- The lottery ticket hypothesis: finding sparse, trainable neural networks, Frankle & Carbin, ICLR 2019, [[arXiv](https://arxiv.org/pdf/1803.03635.pdf)][[code](https://github.com/google-research/lottery-ticket-hypothesis)]. For simple classification problems after network traning we can remove around 90% of neurons and still get very similar accuracy, the neurons that were not removed won "lottery ticket" - their randomly initialized weights made the traning particularly effective.
 - Weight Agnostic Neural Networks, Gaiger & Ha, NeurIPS 2019, [[arXiv](https://arxiv.org/pdf/1906.04358.pdf)] [[DEMO](https://weightagnostic.github.io/)] Architecture search for randomly!! initialized neural networks which can perform reasonably well simple reinforcement learning and classifications tasks.
-- Exploring Randomly Wired Neural Networks for Image Recognition, Xie et. al, [[arXiv](https://arxiv.org/pdf/1904.01569.pdf)][[code](https://github.com/seungwonpark/RandWireNN)] Neural architecure search for image recognition tasks starting from random architectures. Some bizzare looking architecture good really good results.
-- Benchmarking Neural Network Robustness to Common Corruptions and Perturbations, Hendrycks et. al, ICLR 2019, [[arXiv](https://arxiv.org/pdf/1903.12261.pdf)]
+- Exploring Randomly Wired Neural Networks for Image Recognition, Xie et. al, [[arXiv](https://arxiv.org/pdf/1904.01569.pdf)][[code](https://github.com/seungwonpark/RandWireNN)] Neural architecure search for image recognition tasks starting from randomly wired architectures. Some bizzare looking architecture got really good results.
+- Benchmarking Neural Network Robustness to Common Corruptions and Perturbations, Hendrycks et. al, ICLR 2019, [[arXiv](https://arxiv.org/pdf/1903.12261.pdf)]. Introduces new benchmark for *common corruptions* (16 different types of noise, blur, adverse weather conditions) and show drastic reduction of accuracy. Also look at Benchmarking Robustness in Object Detection: Autonomous Driving when Winter is Coming by Michaelis et. al [[arXiv](https://arxiv.org/pdf/1907.07484.pdf)].
 - Natural Adversarial Examples, D. Hendrycks et. al, [[arXiv](https://arxiv.org/pdf/1907.07174.pdf)] "Advesarial" images in the real world. Two another variants of ImageNet dataset: first is a set of natural images which current classifiers fail to classify, and the second for out of distribution detection.
 
 #### 2018:
@@ -21,8 +22,8 @@ List of interesting papers, mostly in ML and CV area. Rather then collecting all
 ### CV / ML:
 
 #### 2020:
-- Self-training with Noisy Student improves ImageNet classification, Xie et. al, [[arXiv](https://arxiv.org/pdf/1911.04252.pdf)]
 - PointRend: Image Segmentation as Rendering, Kirillov et. al, [[arXiv](https://arxiv.org/pdf/1912.08193v2.pdf)]. New approach to image segmentation from randomly selected point-wise features, cool stuff.
+- Self-training with Noisy Student improves ImageNet classification, Xie et. al, [[arXiv](https://arxiv.org/pdf/1911.04252.pdf)]
 
 #### 2019:
 - Learning by Cheating, Chen et. al, CoRL 2019, [[arXiv](https://arxiv.org/pdf/1912.12294.pdf)][[code](https://github.com/dianchen96/LearningByCheating)]
