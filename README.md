@@ -1,7 +1,11 @@
-List of interesting papers, mostly in ML and CV area. 
+List of interesting papers, mostly in ML and CV area.
+
 Rather then collecting all state-of-the art papers/benchmarks here I look for new / orthogonal / surprising ideas.
+
 Papers biased towards my interests: robustness, uncertainty estimation, understanding neural nets, computer vision.
+
 Currently 3 main categories: intriguing properties of NN (robustness, nn training), general CV and ML, and other (e.g. position papers).
+
 
 
 ### Intriguing properties of NN:
