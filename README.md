@@ -1,5 +1,8 @@
 List of interesting papers, mostly in ML and CV area. 
-Rather then collecting all state-of-the art papers/benchmarks here I try to look for new / orthogonal / surprising ideas.
+Rather then collecting all state-of-the art papers/benchmarks here I look for new / orthogonal / surprising ideas.
+Papers biased towards my interests: robustness, uncertainty estimation, understanding neural nets, computer vision.
+Currently 3 main categories: intriguing properties of NN (robustness, nn training), general CV and ML, and other (e.g. position papers).
+
 
 ### Intriguing properties of NN:
 
@@ -32,7 +35,7 @@ Rather then collecting all state-of-the art papers/benchmarks here I try to look
 
 #### 2018:
 - Deep Reinforcement Learning that Matters, Henderson et. al, AAAI 2018, [[arXiv](https://arxiv.org/pdf/1709.06560.pdf)]. On reproduction of baselines in RL, they show that random seeds matters can greatly alter the results and many more, nice read.
-- A Probabilistic U-Net for Segmentation of Ambiguous Images, Kohl etl al, DeepMind, NIPS 2019, [[arXiv](https://arxiv.org/pdf/1806.05034.pdf)] [[code](https://github.com/SimonKohl/probabilistic_unet)] Generative semantic segmentation network which allows to sample diverse and consistent segmentation variants. 
+- A Probabilistic U-Net for Segmentation of Ambiguous Images, Kohl etl al, DeepMind, NIPS 2019, [[arXiv](https://arxiv.org/pdf/1806.05034.pdf)] [[code](https://github.com/SimonKohl/probabilistic_unet)] Generative semantic segmentation network which allows to sample diverse and consistent segmentation variants. [[Follow-up](https://arxiv.org/pdf/1905.13077.pdf)] 
 - The Unreasonable Effectiveness of Deep Features as a Perceptual Metric, Zhang et. al, CVPR 2018, [[arXiv](https://arxiv.org/pdf/1801.03924.pdf)][[code](https://github.com/richzhang/PerceptualSimilarity)]
 - Brute-Force Facial Landmark Analysis With InceA 140,000-Way Classifier, Li et. al, AAAI 2018, [[arXiv](https://arxiv.org/pdf/1802.01777.pdf)][[code](https://github.com/mtli/BFFL)]
 - Noise2Noise: Learning Image Restoration without Clean Data, Lehtinen et. al, ICML 2018 [[arXiv](https://arxiv.org/pdf/1803.04189.pdf)][[code](https://github.com/NVlabs/noise2noise)]. State-of-the image denoising network is trained using only noisy data!
