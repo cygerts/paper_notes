@@ -3,8 +3,8 @@ List of interesting papers in Machine Learning, biased towards robustness, uncer
 ### Intriguing properties of NN:
 
 #### 2020:
-- Overinterpretation reveals image classification model pathologies, Carter et. al, [[arVix](https://arxiv.org/pdf/2003.08907.pdf)]. They remove 95% of the pixels from CIFAR-10 and ImageNet images without significantly changing accuracy of the classifier. What is more the remaining 5% pixels concentrate on the background and are nonsensical to humans, which looks like shortcut to solve the benchmark.
-- High-frequency Component Helps Explain the Generalization of Convolutional Neural Networks, Wang et. al, [[arVix](https://arxiv.org/pdf/1905.13545.pdf)]
+- Overinterpretation reveals image classification model pathologies, Carter et. al, [[arXiv](https://arxiv.org/pdf/2003.08907.pdf)]. They remove 95% of the pixels from CIFAR-10 and ImageNet images without significantly changing accuracy of the classifier. What is more the remaining 5% pixels concentrate on the background and are nonsensical to humans, which looks like shortcut to solve the benchmark.
+- High-frequency Component Helps Explain the Generalization of Convolutional Neural Networks, Wang et. al, [[arXiv](https://arxiv.org/pdf/1905.13545.pdf)]
 
 #### 2019:
 - The lottery ticket hypothesis: finding sparse, trainable neural networks, Frankle & Carbin, ICLR 2019, [[arXiv](https://arxiv.org/pdf/1803.03635.pdf)][[code](https://github.com/google-research/lottery-ticket-hypothesis)]. For simple classification problems after network traning we can remove around 90% of neurons and still get very similar accuracy, the neurons that were not removed won "lottery ticket" - their randomly initialized weights made the traning particularly effective.
