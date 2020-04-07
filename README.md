@@ -3,8 +3,8 @@ List of interesting papers in Machine Learning, biased towards robustness, uncer
 ### Intriguing properties of NN:
 
 #### 2020:
-- What’s Hidden in a Randomly Weighted Neural Network?, Ramanujan et. al, [[arXiv](https://arxiv.org/pdf/1911.13299.pdf)]. "If a neural network with random weights (center) is sufficiently overparameterized, it will contain a subnetwork (right) that perform as well as a trained neural network (left) with the same number of parameters. In short, we validate the unreasonable effectiveness of randomly weighted neural networks for image recognition."
 - Overinterpretation reveals image classification model pathologies, Carter et. al, [[arXiv](https://arxiv.org/pdf/2003.08907.pdf)]. They remove 95% of the pixels from CIFAR-10 and ImageNet images without significantly changing accuracy of the classifier. What is more the remaining 5% pixels concentrate on the background and are nonsensical to humans, which looks like shortcut to solve the benchmark.
+- What’s Hidden in a Randomly Weighted Neural Network?, Ramanujan et. al, [[arXiv](https://arxiv.org/pdf/1911.13299.pdf)]. Sufficiently big randomly initialized! neural networks contains a subnetwork that achieves competitive accuracy. "In short, we validate the unreasonable effectiveness of randomly weighted neural networks for image recognition."
 - High-frequency Component Helps Explain the Generalization of Convolutional Neural Networks, Wang et. al, [[arXiv](https://arxiv.org/pdf/1905.13545.pdf)]
 
 #### 2019:
