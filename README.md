@@ -54,7 +54,7 @@ List of interesting papers in Machine Learning, biased towards robustness, uncer
 ### Other:
 - How to do Research at the MIT AI Lab, 1988 [[LINK](https://dspace.mit.edu/bitstream/handle/1721.1/41487/AI_WP_316.pdf?sequence=4&isAllowed=y)]
 - Adversarial Examples and the Deeper Riddle of Induction: The Need for a Theory of Artifacts in Deep Learning, Buckner, 2020. [[arXiv](https://arxiv.org/pdf/2003.11917.pdf)]
-- Winner's Curse? On Pace, Progress, and Empirical Rigor, D. Sculley et. al, 2018 [[openReview](Winner's Curse? On Pace, Progress, and Empirical Rigor )]
+- Winner's Curse? On Pace, Progress, and Empirical Rigor, D. Sculley et. al, 2018 [[openReview](https://openreview.net/pdf?id=rJWF0Fywf)]
 - Relational inductive biases, deep learning, and graph networks, Battaglia et. al, 2018, [[arXiv](https://arxiv.org/pdf/1806.01261.pdf)]
 - The Next Decade in AI: Four Steps Towards Robust Artificial Intelligence, Marcus 2020, [[arXiv](https://arxiv.org/pdf/2002.06177.pdf)]
 - Building machines that learn and think like people, Lake et. al, 2016, [[arXiv](https://arxiv.org/pdf/1604.00289.pdf)]
