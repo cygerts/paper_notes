@@ -4,8 +4,9 @@ List of interesting papers in Machine Learning, biased towards robustness, uncer
 
 #### 2020:
 - Overinterpretation reveals image classification model pathologies, Carter et. al, [[arXiv](https://arxiv.org/pdf/2003.08907.pdf)]. They remove 95% of the pixels from CIFAR-10 and ImageNet images without significantly changing accuracy of the classifier. What is more the remaining 5% pixels concentrate on the background and are nonsensical to humans, which looks like shortcut to solve the benchmark.
-- What’s Hidden in a Randomly Weighted Neural Network?, Ramanujan et. al, [[arXiv](https://arxiv.org/pdf/1911.13299.pdf)]. Sufficiently big randomly initialized! neural networks contains a subnetwork that achieves competitive accuracy. "In short, we validate the unreasonable effectiveness of randomly weighted neural networks for image recognition."
+- What’s Hidden in a Randomly WeighteCRITICALd Neural Network?, Ramanujan et. al, [[arXiv](https://arxiv.org/pdf/1911.13299.pdf)]. Sufficiently big randomly initialized! neural networks contains a subnetwork that achieves competitive accuracy. "In short, we validate the unreasonable effectiveness of randomly weighted neural networks for image recognition."
 - High-frequency Component Helps Explain the Generalization of Convolutional Neural Networks, Wang et. al, [[arXiv](https://arxiv.org/pdf/1905.13545.pdf)]
+- Analyzing Reinforcement Learning Benchmarks with Random Weight Guessing, Oller et. al, 2020, [[arXiv](https://arxiv.org/pdf/2004.07707.pdf)] Assesing difficulty of RL-tasks by creating simple controllers, randomly initializing weights and measuring the (surprisingly high?) success rate (no training).
 
 #### 2019:
 - The lottery ticket hypothesis: finding sparse, trainable neural networks, Frankle & Carbin, ICLR 2019, [[arXiv](https://arxiv.org/pdf/1803.03635.pdf)][[code](https://github.com/google-research/lottery-ticket-hypothesis)]. For simple classification problems after network traning we can remove around 90% of neurons and still get very similar accuracy, the neurons that were not removed won "lottery ticket" - their randomly initialized weights made the traning particularly effective.
@@ -15,6 +16,8 @@ List of interesting papers in Machine Learning, biased towards robustness, uncer
 - A fourier perspective on model robustness in computer vision, Dong et. al, NeurIPS 2019, [[arXiv](https://arxiv.org/pdf/1906.08988.pdf)]. They study how different augmentation techniques affects resulting model sensitivity to corruptions with different Fourier basis vectors, i.e. with regard no noise concentraed in high vs low frequency domain, very insightful.
 - Benchmarking Neural Network Robustness to Common Corruptions and Perturbations, Hendrycks et. al, ICLR 2019, [[arXiv](https://arxiv.org/pdf/1903.12261.pdf)]. Introduces new benchmark for *common corruptions* (16 different types of noise, blur, adverse weather conditions) and show drastic reduction of accuracy. Also look at Benchmarking Robustness in Object Detection: Autonomous Driving when Winter is Coming by Michaelis et. al [[arXiv](https://arxiv.org/pdf/1907.07484.pdf)].
 - Natural Adversarial Examples, D. Hendrycks et. al, [[arXiv](https://arxiv.org/pdf/1907.07174.pdf)] "Advesarial" images in the real world. Two another variants of ImageNet dataset: first is a set of natural images which current classifiers fail to classify, and the second for out of distribution detection.
+- Why do deep convolutional networks generalize so poorly to small image transformations? Azulay & Weiss, 2019. [[arXiv](https://arxiv.org/pdf/1805.12177.pdf)] 
+- Do ImageNet Classifiers Generalize to ImageNet?, Recht. et al, [[arXiv](https://arxiv.org/pdf/1902.10811.pdf)] 
 
 #### 2018:
 - ImageNet-trained CNNs are biased towards texture; increasing shape bias improves accuracy and robustness, Geirhos et. al, ICLR 2019, [[arXiv](https://arxiv.org/pdf/1811.12231.pdf)][[code](https://github.com/rgeirhos/texture-vs-shape)] They show that current classification algorithms are biased towards texture, using style transfer as data augmentation helps to partially mitigate the problem.
@@ -54,6 +57,7 @@ List of interesting papers in Machine Learning, biased towards robustness, uncer
 ### Other:
 - How to do Research at the MIT AI Lab, 1988 [[LINK](https://dspace.mit.edu/bitstream/handle/1721.1/41487/AI_WP_316.pdf?sequence=4&isAllowed=y)]
 - Adversarial Examples and the Deeper Riddle of Induction: The Need for a Theory of Artifacts in Deep Learning, Buckner, 2020. [[arXiv](https://arxiv.org/pdf/2003.11917.pdf)]
+- Shortcut Learning in Deep Neural Networks, Geirhos et. al, 2020, [[arXiv](https://arxiv.org/pdf/2004.07780.pdf)]
 - Winner's Curse? On Pace, Progress, and Empirical Rigor, D. Sculley et. al, 2018 [[openReview](https://openreview.net/pdf?id=rJWF0Fywf)]
 - Relational inductive biases, deep learning, and graph networks, Battaglia et. al, 2018, [[arXiv](https://arxiv.org/pdf/1806.01261.pdf)]
 - The Next Decade in AI: Four Steps Towards Robust Artificial Intelligence, Marcus 2020, [[arXiv](https://arxiv.org/pdf/2002.06177.pdf)]
